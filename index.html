@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="containerHeader">
+            <header>
+                <h1>Inscreva-se</h1>
+                <p>Curso JQuery presencial com Gian Souza</p>
+            </header>
+        </div>
+        <div class="inputs">
+            <form>
+                <div class="campo">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="campo">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone">
+                </div>
+                <div class="campo">
+                    <label for="CPF">CPF</label>
+                    <input type="text" name="CPF" id="CPF">
+                </div>
+                <div class="campo">
+                    <label for="CEP">CEP</label>
+                    <input type="text" name="CEP" id="CEP">
+                </div>
+                <div class="campo">
+                    <label for="enderecoComp">Endereço Completo</label>
+                    <input type="text" name="enderecoComp" id="enderecoComp">
+                </div>
+                <button type="submit">Confirmar inscrição</button>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

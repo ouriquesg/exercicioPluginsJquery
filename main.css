@@ -1,0 +1,98 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #87db7f, #46b7da);
+}
+.container{
+    height: 720px;
+    width: 480px;
+    background: #5a5a5a;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+.containerHeader{
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    text-decoration: dashed;
+    color: whitesmoke;
+}
+h1{
+    font-size: 48px;
+}
+p{
+    font-size: 12px;
+    text-align: center;
+}
+form{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(35deg, #aeddb2, #6e929c);
+    padding: 8px auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 14px;
+    height: 580px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.campo{
+    padding: 6px;
+    margin-top: 8px;
+}
+label{
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 48px;
+    font-size: 16px;
+}
+input{
+    padding: 8px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid;
+    background: none;
+    outline: none;
+    font-size: 14px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+button{
+    margin-top: 8px;
+    text-transform: uppercase;
+    padding: 16px;
+    border-radius: 12px;
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+    background-color: #5a5a5a;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+button:hover{
+    transition: 0.5s;
+    background-color: #46b7da;
+    color: black;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.error{
+    color: red;
+    font-size: 12px;
+}
